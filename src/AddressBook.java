@@ -22,4 +22,12 @@ public class AddressBook {
 	public void removeBuddy(BuddyInfo buddyInfo) {
 		addresses.remove(buddyInfo);
 	}
+	
+
+	public static void main(String[] args) {
+		AddressBook addresses = new AddressBook();
+		BuddyInfo buddyInfo = new BuddyInfo();
+		buddyInfo.setName("Aly");
+		addresses.addBuddy(buddyInfo);
+	}
 }
