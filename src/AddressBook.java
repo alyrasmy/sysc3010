@@ -23,7 +23,10 @@ public class AddressBook {
 		addresses.remove(buddyInfo);
 	}
 	
-
+	private void testfunction() {
+		//does nothing
+	}
+	
 	public static void main(String[] args) {
 		AddressBook addresses = new AddressBook();
 		BuddyInfo buddyInfo = new BuddyInfo();
